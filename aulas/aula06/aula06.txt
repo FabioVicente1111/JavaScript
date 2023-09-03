@@ -1,0 +1,37 @@
+Aula 6 # Manipulação de dados em JavaScript
+
+# Converter para number
+Number.parseInt(n)
+-Converte para numero inteiro
+
+Number.parseFloat(n)
+-Converte para numero com decimais
+
+Number(n)
+-o JavaScript vai reconhecer se vai ser inteiro ou float
+
+
+# Converter para string
+String(n)
+n.toString()
+
+# Formatando string
+var s='JavaScript'
+'Eu estou aprendendo s'  //não faz interpolação
+'Eu estou aprendend' + s  //usa concatenação
+`Eu estou aprendendo ${s}` //usa templete string
+
+
+s.length  		//quantos caracteres a string tem
+s.tuUpperCase()	//tudo para maiúsculas
+s.toLowerCase()	//tudo para minúsculas
+
+# Formatando números
+var n1 = 1543.5
+n1
+n1.toFixed(2)	//
+n1.toLocaleString('pt-BR', {style:'currency',currency:'BRL'})
+  Resultado: R$ 1.543,50
+
+
+
