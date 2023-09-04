@@ -1,0 +1,9 @@
+cd ..
+git pull
+echo
+
+echo git pull: feito
+echo
+
+bash .s/t-c
+echo t-c: feito
