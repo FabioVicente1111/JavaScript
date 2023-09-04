@@ -4,6 +4,6 @@ echo "git add aplicado"
 echo "Digite comentario:"
 read mensagem;
 git commit -m $mensagem
-#echo "Mensagem aplicado"
-#git push
-#echo "git push aplicado"
+echo "Mensagem aplicado: $mensagem"
+git push
+echo "git push aplicado"
