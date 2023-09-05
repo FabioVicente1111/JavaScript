@@ -1,0 +1,54 @@
+Aula 7 # Operadores do JS
+
+Aritmeticos
+Atribuição
+Relacionais
+Logicos
+Ternario
+
+# Aritimeticos : + - * / % **
+
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5
+5 % 2 = 1
+5 ** 2 = 25
+
+# Precedencia
+()
+/ * %
++ -
+
+# Atribuição simples =
+var a = 5 +3
+var b = a + 2
+
+# Auto-atribuição
+var n = 3
+n = n + 4
+
+# Simplificando
+var n = 3
+n = n + 4    n += 4
+n = n - 5    n -= 5
+n = n * 4    n *= 4
+n = n / 2    n /= 2
+n = n ** 2   n **= 2
+n = n % 5    n %= 5
+
+# Incremento
+var x = 5
+x = x + 1    x++
+x = x - 1    x--
+
+x++  pos-incremento
+++x  pre-incremento
+
+x--  pos-decremento
+--x  pre-decremento
+
+
+
+
+

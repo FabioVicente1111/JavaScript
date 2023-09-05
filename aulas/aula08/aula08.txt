@@ -1,0 +1,66 @@
+Aula 8 # Operadores do JS
+
+# Relacionais < > >= <= == !=
+
+5 < 2 = false
+5 > 2 = true
+8 >= 4 = true
+8 <= 8 = true
+8 == 8 = true
+4 != 4 = false
+
+# Identidade
+5 == 5 = true
+5 == '5' = true
+5 === '5' = false
+
+== para o JS,testa se a grandesa é igual
+=== testa se é identico, isso inclui mesmo tipo (string, number)
+
+# Logica (sequencia de precedencia)
+
+! negação
+&& conjunção, e logico
+|| disjunção, ou logico
+
+
+# Negação
+! true = false
+! false = true
+
+# Conjunção
+true && true = true
+true && false = false
+false && true = false
+false && false = false
+
+# Disjunção
+true || true = true
+true || false = true
+false || true = true
+false || false = false
+
+# Ternario ? :
+teste ? true : false
+media >=7.0 ? "Aprovado" : "Reprovado"
+
+
+
+
+# Ordem de precedencia
+Aritimetico
+relacional
+logico
+
+
+
+16:50 min.
+
+
+
+
+
+
+
+
+
