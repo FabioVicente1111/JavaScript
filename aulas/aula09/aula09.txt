@@ -1,0 +1,56 @@
+aula 9 # Introdução ao DOM
+
+# comandos usados
+window.document.write('Ola, mundo!')
+-exibir texto no navegadador
+
+window.document.write(window.document.charset)
+-Vai exibir o charset da pagina. ex.: UTF-8
+
+window.document.write(window.navigator.appName)
+-exibe nome do navegador
+
+window.document.write(window.document.URL)
+-exibe url da pagina
+
+
+
+
+# Selecionando
+por Marca
+por ID
+por Nome
+por Classe
+por Seletor
+
+
+por Marca
+getElementsByTagName()
+
+
+var p1 = window.document.getElementsByTagName('p')[0]
+-vai armazenar o paragrafo 0 na variavel p1
+window.document.write(p1.innerText)
+-vai exibir na pagina o conteudo da variavel p1
+
+window.document.write(p1.innerHTML)
+-vai exibir na pagina o conteudo da variavel p1, com a formatação
+
+p1.style.color = 'blue'
+-altera a cor de p1 para azul
+
+var corpo = window.document.body
+-cria variavel vorpo
+corpo.style.background = 'black'
+-altera background para preto
+
+
+
+var d = window.document.querySelector('div.msg')
+d.style.background = 'blue'
+
+
+
+
+
+
