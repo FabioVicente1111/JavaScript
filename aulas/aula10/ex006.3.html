@@ -21,12 +21,17 @@
 <body>
     <!-- ontouchstart="clicar()" no celular
     onclick="clicar()" no computador, com o mouse -->
-    <div id="area" ontouchstart="toque()" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+    <div id="area">
         Interaja...
     </div>
     
     <script>
         var a = window.document.getElementById("area")
+        a.addEventListener('toque', toque)
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
         function toque(){
             a.innerText="Tocou"
             a.style.background="red"
